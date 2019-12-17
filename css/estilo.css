@@ -28,7 +28,6 @@ div{
   text-align: center;
   margin: auto;
   margin-top: 1px;
-	padding: 1%;
 }
 
 .main{
@@ -69,7 +68,7 @@ text-shadow:  1px  1px 2px black,
    -1px -1px 2px black;
 }
 
-.td-title, .item-source{
+.td-title, .item-source, .item-ench{
   font-weight: bold;
 }
 
@@ -95,10 +94,14 @@ a.orange-item{
 
 .item-source, a.item-source{
   color: #ffd100;
+}
+
+.item-source, a.item-ench{
 text-shadow:  1px  1px 2px black,
-    1px -1px 2px black,
-   -1px  1px 2px black,
-   -1px -1px 2px black;
+  1px -1px 2px black,
+ -1px  1px 2px black,
+ -1px -1px 2px black;
+
 }
 
 table {
@@ -125,7 +128,11 @@ table tr th:last-child {
 .tr-t2{
   background-color: pink;
 }
-
+.table td
+{
+    text-align: center;
+    vertical-align: middle;
+}
 
 
 
